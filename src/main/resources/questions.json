@@ -1,264 +1,225 @@
 {
+  "course": "Computer Science Final Review",
   "questions": [
     {
       "id": 1,
-      "category": "Review",
-      "question": "Sample Question 1?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Networking",
+      "question": "Which protocol guarantees reliable, in-order delivery of data?",
+      "choices": ["UDP", "TCP", "IP", "DNS"],
+      "correctAnswer": 1,
+      "explanation": "TCP provides reliable, ordered delivery using acknowledgments and retransmissions."
     },
     {
       "id": 2,
-      "category": "Review",
-      "question": "Sample Question 2?",
+      "category": "Networking",
+      "question": "What is the primary advantage of UDP compared to TCP?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Guaranteed delivery",
+        "Lower overhead",
+        "Built-in encryption",
+        "Flow control"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "UDP has less overhead because it does not provide reliability, acknowledgements, or connection management."
     },
     {
       "id": 3,
-      "category": "Review",
-      "question": "Sample Question 3?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Java",
+      "question": "Which class is used to accept incoming TCP connections?",
+      "choices": ["Socket", "ServerSocket", "DatagramSocket", "URLConnection"],
+      "correctAnswer": 1,
+      "explanation": "ServerSocket listens for incoming client connections."
     },
     {
       "id": 4,
-      "category": "Review",
-      "question": "Sample Question 4?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Java Concurrency",
+      "question": "Which interface represents a task that can be submitted to an ExecutorService?",
+      "choices": ["Iterable", "Runnable", "Comparator", "Scanner"],
+      "correctAnswer": 1,
+      "explanation": "Runnable represents a unit of work that can be executed by a thread."
     },
     {
       "id": 5,
-      "category": "Review",
-      "question": "Sample Question 5?",
+      "category": "Java Concurrency",
+      "question": "What is the primary purpose of a thread pool?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Increase network speed",
+        "Reuse threads efficiently",
+        "Encrypt communications",
+        "Store application data"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "Thread pools reduce the overhead of repeatedly creating and destroying threads."
     },
     {
       "id": 6,
-      "category": "Review",
-      "question": "Sample Question 6?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Data Structures",
+      "question": "Which collection provides average O(1) key lookup?",
+      "choices": ["ArrayList", "LinkedList", "HashMap", "TreeSet"],
+      "correctAnswer": 2,
+      "explanation": "HashMap uses hashing to provide constant-time average lookup."
     },
     {
       "id": 7,
-      "category": "Review",
-      "question": "Sample Question 7?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Algorithms",
+      "question": "What is the worst-case time complexity of binary search?",
+      "choices": ["O(1)", "O(log n)", "O(n)", "O(n²)"],
+      "correctAnswer": 1,
+      "explanation": "Binary search repeatedly divides the search space in half."
     },
     {
       "id": 8,
-      "category": "Review",
-      "question": "Sample Question 8?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Databases",
+      "question": "Which SQL clause is used to filter rows before they are returned?",
+      "choices": ["ORDER BY", "GROUP BY", "WHERE", "HAVING"],
+      "correctAnswer": 2,
+      "explanation": "The WHERE clause filters rows before grouping and sorting."
     },
     {
       "id": 9,
-      "category": "Review",
-      "question": "Sample Question 9?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Software Engineering",
+      "question": "Which principle hides internal implementation details behind a public interface?",
+      "choices": ["Inheritance", "Polymorphism", "Encapsulation", "Recursion"],
+      "correctAnswer": 2,
+      "explanation": "Encapsulation hides internal state and implementation details."
     },
     {
       "id": 10,
-      "category": "Review",
-      "question": "Sample Question 10?",
+      "category": "Security",
+      "question": "How should user passwords be stored in a database?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Plain text",
+        "Encrypted with a fixed key",
+        "Salted hash",
+        "Compressed"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 2,
+      "explanation": "Passwords should be stored as salted hashes to protect against compromise."
     },
     {
       "id": 11,
-      "category": "Review",
-      "question": "Sample Question 11?",
+      "category": "Operating Systems",
+      "question": "What is a process?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "A compilation unit",
+        "A program in execution",
+        "A CPU core",
+        "A network packet"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "A process is a running instance of a program."
     },
     {
       "id": 12,
-      "category": "Review",
-      "question": "Sample Question 12?",
+      "category": "Operating Systems",
+      "question": "Which scheduling algorithm gives each process a fixed time slice?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "First-Come First-Serve",
+        "Shortest Job First",
+        "Round Robin",
+        "Priority Scheduling"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 2,
+      "explanation": "Round Robin allocates a time quantum to each process in turn."
     },
     {
       "id": 13,
-      "category": "Review",
-      "question": "Sample Question 13?",
+      "category": "Computer Architecture",
+      "question": "What does RAM provide?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Persistent storage",
+        "Temporary working memory",
+        "Network connectivity",
+        "CPU scheduling"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "RAM stores data and instructions currently being used by the CPU."
     },
     {
       "id": 14,
-      "category": "Review",
-      "question": "Sample Question 14?",
+      "category": "Object-Oriented Programming",
+      "question": "Which principle allows a subclass to provide a specialized implementation of a method?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Encapsulation",
+        "Overriding",
+        "Composition",
+        "Aggregation"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "Method overriding allows a subclass to redefine inherited behavior."
     },
     {
       "id": 15,
-      "category": "Review",
-      "question": "Sample Question 15?",
+      "category": "Software Engineering",
+      "question": "What is the primary purpose of version control?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Run unit tests",
+        "Manage source code changes",
+        "Compile applications",
+        "Encrypt files"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "Version control tracks and manages changes to source code over time."
     },
     {
       "id": 16,
-      "category": "Review",
-      "question": "Sample Question 16?",
+      "category": "Databases",
+      "question": "What is a primary key?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "An encrypted field",
+        "A field used for sorting",
+        "A unique identifier for each row",
+        "A backup copy of a record"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 2,
+      "explanation": "A primary key uniquely identifies each row in a table."
     },
     {
       "id": 17,
-      "category": "Review",
-      "question": "Sample Question 17?",
-      "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
-      ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "category": "Algorithms",
+      "question": "Which sorting algorithm has worst-case complexity O(n log n)?",
+      "choices": ["Bubble Sort", "Insertion Sort", "Merge Sort", "Selection Sort"],
+      "correctAnswer": 2,
+      "explanation": "Merge Sort consistently runs in O(n log n) time."
     },
     {
       "id": 18,
-      "category": "Review",
-      "question": "Sample Question 18?",
+      "category": "Automata",
+      "question": "Finite automata recognize which class of languages?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "Context-free languages",
+        "Regular languages",
+        "Context-sensitive languages",
+        "Recursive languages"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 1,
+      "explanation": "Finite automata recognize exactly the regular languages."
     },
     {
       "id": 19,
-      "category": "Review",
-      "question": "Sample Question 19?",
+      "category": "Automata",
+      "question": "What is the primary difference between a DFA and an NFA?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "NFAs allow multiple possible next states",
+        "DFAs can recognize more languages",
+        "NFAs require a stack",
+        "DFAs use recursion"
       ],
       "correctAnswer": 0,
-      "explanation": "Sample"
+      "explanation": "An NFA may have multiple transitions for the same input symbol, while a DFA has exactly one."
     },
     {
       "id": 20,
-      "category": "Review",
-      "question": "Sample Question 20?",
+      "category": "Networking",
+      "question": "Why is message framing necessary when using TCP?",
       "choices": [
-        "A",
-        "B",
-        "C",
-        "D"
+        "TCP encrypts messages",
+        "TCP preserves message boundaries",
+        "TCP delivers a byte stream without message boundaries",
+        "TCP requires fixed-size packets"
       ],
-      "correctAnswer": 0,
-      "explanation": "Sample"
+      "correctAnswer": 2,
+      "explanation": "TCP provides a continuous byte stream, so applications must define how messages start and end."
     }
   ]
 }
